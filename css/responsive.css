@@ -1,0 +1,308 @@
+/*##################################################################*/
+/* Tablet - portrait ###############################################*/
+/*##################################################################*/
+
+@media (min-width:480px) and (max-width: 767px) {
+    .tlt {
+        letter-spacing: 2px;
+        font-size: 48px;
+        line-height:50px;
+    }
+    blockquote p {
+        font-size: 19px;
+        line-height:29px;
+    }
+
+    .banner h4 {
+       font-size: 2.5em;
+       margin: 40px 100px;
+    }
+
+    .banner:after {
+        height: 40%;
+    }
+  
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+
+    
+    .service_box p {
+        width:220px;
+        margin: 0 auto;    
+    }
+    
+    #service_boxes ul {
+        width:220px;
+    }
+
+    #services .heading-item {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    #services .heading-item.active {
+        padding-bottom: 2px;
+    }
+    
+    .animbox {
+        width: 220px;
+    }
+    
+    #folio .heading-item {
+        margin-right: -11px;
+    }
+
+    .project-item {
+        width: 281px;
+    }
+
+    .one-third:nth-of-type(3n) {
+        margin-right: 10px;
+    }
+
+    .one-third:nth-of-type(2n) {
+        margin-right: 0;
+    }    
+}
+
+
+/*##################################################################*/
+/* Smartphone - portrait ###########################################*/
+/*##################################################################*/
+
+@media (max-width: 479px) {
+    .tlt {
+        letter-spacing: 0px;
+        font-size: 36px;
+        line-height: 30px;
+        position: relative;
+        top: 40px;
+    }
+
+    .tlt > .texts {
+        line-height: 1em;
+        list-style: none;
+        padding: 0;
+    }
+
+    .landing-play-btn {
+        position: relative;
+        top: 50px;
+        height: 4em;
+        width: 4em;
+        background-repeat: no-repeat;
+    }
+
+    #logo.mobile-logo {
+        display: block;
+        float: none;
+        margin: 15px auto;
+    }
+
+    .button_nav#showLeft {
+        position: absolute;
+        right: 0;
+    }
+
+    nav #logo a > img {
+        width: 100%;
+    }
+    
+    h2 {
+        font-size: 35px;
+        line-height:52px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        line-height:37px;
+    }
+    
+    blockquote p {
+        font-size: 17px;
+        line-height:29px;
+    }
+    
+    #home {
+        height:400px;
+        background-color: #0070aa;
+        background-image: url(../images/home-bg_mobile.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:  480px 400px;         
+    }
+    
+    #home blockquote {
+        margin-top:115px;
+    }
+    
+    #clients {
+        height:450  px;
+    }
+    
+    #clients .client_logo {
+        border-width:2px;
+    }
+    .md-content {
+    padding-top:10px;     
+    }    
+    .md-content h3, .md-content p{
+    margin-bottom:10px;
+    margin-top:10px;
+    width:90%;    
+    }
+    
+    .flex-direction-nav li .next {right: 20px}
+    .flex-direction-nav li .prev {left: 20px}
+    
+    .contact_details p{
+    margin-top:20px;
+    margin-bottom: 50px;
+    }
+    .social_icons {
+    margin-top:25px;
+    }
+
+    /* Video Modal */
+
+    .button_nav.md-close {
+        position: absolute;
+        left: 0;    
+        top: 0;
+        z-index: 2;
+    }    
+
+    .fluid-width-video-wrapper {
+        width: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 37px;
+    }
+
+    .md-content.video {
+        width: 100%;
+    }
+
+    .md-content.video p {
+        width: 300px;
+        font-size: 13px;
+    }
+
+    /* Banner */
+
+    .banner {
+        height: 75px;
+    }
+
+    .banner:after {
+        display: none;
+    }
+
+    .banner h4 {
+        width: 100%;
+        margin: 14px 20px;
+        font-size: 20px;
+    }
+
+    .main-section ul {
+        margin: 20px;
+    }
+
+    /* Spotlight */
+
+    .offerings-spotlight-item {
+        position: relative;
+        margin-bottom: 80px;
+        padding: 0 20px;
+    }
+
+    .offerings-spotlight-item:before {
+        position: relative;
+        top: -30px;
+        margin: 0 auto;
+    }    
+
+    .offerings-spotlight-item:nth-child(2n) {
+        padding-right: 20px;
+    }    
+
+    .offerings-spotlight-item:nth-child(2n-1) {
+        padding-left: 20px;
+    }    
+
+    /* Videos */
+
+    .project-item.animate {
+        width: 267px;
+        height: 240px;
+    }
+
+    .one-third {
+        margin: 0;
+    }
+
+    /* Bio Content */
+
+    .bio-content {
+        padding-top: 20px;
+    }
+
+    .bio-content.thomas {
+        background-position: 100% top;
+    }    
+
+    .bio-content.kevin {
+        background-position: 0 top;
+    }
+
+    .bio-content h3 {
+        width: 70%;
+    }
+
+    .bio-content h5 {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .bio-content p {
+        width: 100%;
+    }
+
+}
+
+
+
+/*##################################################################*/
+/* Retina - desktop + tablet #######################################*/
+/*##################################################################*/
+
+@media all and (-webkit-min-device-pixel-ratio: 2), all and (-moz-min-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 2), all and (-o-min-device-pixel-ratio: 2/1) {
+    #home {    
+        background: url(../images/home-bg@2x.jpg);
+        background-size: 100%;
+        background-repeat:no-repeat;
+    }
+    
+    #clients {
+        /*background: url(../images/clients_bg@2x.jpg);*/
+        background-size: 1000px 500px;
+        background-position:top;
+        background-repeat:no-repeat;
+    }
+      
+}
+
+
+/*##################################################################*/
+/* Retina - smartphone #############################################*/
+/*##################################################################*/
+
+@media (max-width: 479px) and (-webkit-min-device-pixel-ratio: 2), all and (-moz-min-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 2), all and (-o-min-device-pixel-ratio: 2/1) {
+  #home {    
+    background: url(../images/home-bg_mobile@2x.jpg);
+    background-size: 480px 400px;
+    background-position:center;
+  }
+}
